@@ -1,0 +1,26 @@
+npm init -y
+
+
+npm install tailwindcss @tailwindcss/cli
+
+
+make src folder
+
+inside that folder make a input.css and output.css and index.html 
+
+write
+@import "tailwindcss";
+inside the src/input.css
+
+
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+
+npx tailwindcss-cli@latest init
+this created the tailwind.config.js file which connects to the extension to autocomplete the tailwindcss commands
+
+write
+content: ["./src/**/*.html", "./src/**/*.js"],
+inside the tailwind.config.js under the darkmode line
+
+restart the window ctrl+shift+p and reload window
