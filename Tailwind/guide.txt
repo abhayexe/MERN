@@ -24,3 +24,11 @@ content: ["./src/**/*.html", "./src/**/*.js"],
 inside the tailwind.config.js under the darkmode line
 
 restart the window ctrl+shift+p and reload window
+
+
+
+everytime opening the project you need to write: 
+
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+iin terminal
