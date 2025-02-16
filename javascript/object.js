@@ -3,7 +3,7 @@ const obj={//const or let can be used
     lastname: null,
     age: 21,
     role: "software developer",
-    loggedin: true,
+    "loggedin": true,
 }
 
 var eg = typeof(obj);
@@ -14,6 +14,7 @@ obj.role="thugshaker";
 obj.thug="yesking";
 
 console.log(obj.name, obj.lastname);
+console.log("loggedin: "+obj["loggedin"]);
 console.log(obj);
 
 var nig1 = Symbol("SEXBOT");
@@ -25,4 +26,8 @@ nig2 = 22;
 var greet = `hello, ${obj.name}`;
 console.log(greet);
 
-console.log(nig1 == nig2)
+console.log(nig1 == nig2);
+
+
+let today=new Date();
+console.log(today.getDate());
