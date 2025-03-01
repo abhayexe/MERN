@@ -13,7 +13,7 @@ if(booleanval){
     console.log("booleanval is false")
 }
 
-const arr = []
+const arr = [null, 2, 3, 4, 5];
 if(arr[0]==null){//null or undefined
     console.log("arr is empty")
 }

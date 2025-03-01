@@ -14,10 +14,11 @@ console.log(typeof arr[1])
 
 var arr2 = ["buggati", "lamborgini", "ferrari", "audi"];
 //or
-var arr2 = new Array("buggati", "lamborgini", "ferrari", "audi");
+var arr2 = ["supernigha", "lamborgini", "ferrari", "audi", "bmw"];
+// var arr2 = new Array("monish", "lamborgini", "ferrari", "audi", "sex");
 console.log(arr2[0]);
 
-arr2[arr2.length] = "bmw";
+arr2[arr2.length] = "bmw";//arr2[4]="bmw"
 arr2.push("mercedes");
 var arr3 = arr2;
 var popped = arr2.pop();

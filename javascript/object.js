@@ -14,20 +14,23 @@ obj.role="thugshaker";
 obj.thug="yesking";
 
 console.log(obj.name, obj.lastname);
-console.log("loggedin: "+obj["loggedin"]);
+console.log("loggedin: "+obj["name"]);//obj["loggedin"] or obj.loggedin
 console.log(obj);
 
 var nig1 = Symbol("SEXBOT");
 var nig2 = Symbol("SEXBOT");
+console.log(nig1);
 
 nig1 = 21;
 nig2 = 22;
 
-var greet = `hello, ${obj.name}`;
+var greet = `hello, ${nig1}`;
+console.log(greet)
+// var greet = "hello, ${obj.name}";
+var greet = 'hello, ${obj.name}';
 console.log(greet);
 
 console.log(nig1 == nig2);
-
 
 let today=new Date();
 console.log(today.getDate());
