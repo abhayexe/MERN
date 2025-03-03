@@ -54,3 +54,22 @@ let acc = new BankAcc();
 acc.deposit(100);
 console.log(acc.getBalance());
 // console.log(acc.#balance); // Error
+
+
+class Machine{
+    start(){
+        return "Machine started";
+    }
+    sound(){
+        return "broom broom";
+    }
+    pressStart(){
+        let ms1 = this.start();
+        let ms2 = this.sound();
+        return `${ms1}... ${ms2}`;
+    }
+}
+
+let machine = new Machine();
+console.log(machine.pressStart());
+// console.log(machine.sound());
